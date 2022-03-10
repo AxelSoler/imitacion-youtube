@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+}
+#logo {
+    height: 50px;
+    width: 150px;
+}
+#topNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: yellow;
+    align-items: center;
+}
+#profile {
+    margin-right: 30px;
+}
+#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    background-color: aqua;
+}
+#like {
+    margin-top: 30px;
+    margin-right: 50px;
+}
+h3 {
+    background-color: aquamarine;
+    padding: 20px;
+}
+#comment {
+    width: 450px;
+}
