@@ -1,16 +1,22 @@
 body {
-    background-color: gray;
+    background-color: grey;
 }
 #logo {
     height: 50px;
     width: 150px;
 }
 #topNav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     background-color: yellow;
     align-items: center;
+}
+#search {
+    width: 400px;
 }
 #profile {
     margin-right: 30px;
@@ -20,7 +26,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding-left: 30px;
-    background-color: aqua;
+    border-color: black;
 }
 #like {
     margin-top: 30px;
@@ -29,7 +35,35 @@ body {
 h3 {
     background-color: aquamarine;
     padding: 20px;
+    border-width: 5px;
 }
 #comment {
     width: 450px;
+    height: 30px;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+video {
+    width: 1000px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+#siguiente {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    width: 400px;
+    height: 250px;
+}
+p {
+    font-size: 30px;
+    margin-left: 15px;
 }
